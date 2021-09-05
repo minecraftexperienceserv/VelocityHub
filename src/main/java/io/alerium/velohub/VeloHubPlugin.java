@@ -20,6 +20,7 @@ import javax.inject.Inject;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -88,7 +89,7 @@ public class VeloHubPlugin {
      * This method registers the commands
      */
     private void registerCommands() {
-        server.getCommandManager().register(new ReloadCommand(this), "velohub-reload");
+        server.getCommandManager().register("velohub-reload", new ReloadCommand(this));
         
         JsonObject commandInfo = config.getObject().getAsJsonObject("hub-command");
         if (!commandInfo.get("enabled").getAsBoolean())
@@ -97,8 +98,8 @@ public class VeloHubPlugin {
         List<String> aliases = new ArrayList<>();
         for (JsonElement element : commandInfo.getAsJsonArray("aliases"))
             aliases.add(element.getAsString());
-        
-        server.getCommandManager().register(new LobbyCommand(this), aliases.toArray(new String[0]));
+
+        server.getCommandManager().register(aliases.get(0), new LobbyCommand(this), Arrays.copyOfRange(aliases.toArray(new String[0]), 1, aliases.size()));
     }
     
 }
