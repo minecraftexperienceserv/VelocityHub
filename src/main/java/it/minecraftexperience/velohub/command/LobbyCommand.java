@@ -1,10 +1,10 @@
-package io.alerium.velohub.command;
+package it.minecraftexperience.velohub.command;
 
 import com.velocitypowered.api.command.CommandSource;
 import com.velocitypowered.api.command.SimpleCommand;
 import com.velocitypowered.api.proxy.Player;
-import io.alerium.velohub.VeloHubPlugin;
-import io.alerium.velohub.objects.Lobby;
+import it.minecraftexperience.velohub.VeloHubPlugin;
+import it.minecraftexperience.velohub.objects.Lobby;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor

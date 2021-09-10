@@ -1,9 +1,9 @@
-package io.alerium.velohub.api;
+package it.minecraftexperience.velohub.api;
 
 import com.velocitypowered.api.proxy.Player;
 import com.velocitypowered.api.proxy.ServerConnection;
-import io.alerium.velohub.VeloHubPlugin;
-import io.alerium.velohub.objects.Lobby;
+import it.minecraftexperience.velohub.VeloHubPlugin;
+import it.minecraftexperience.velohub.objects.Lobby;
 
 import java.util.Optional;
 

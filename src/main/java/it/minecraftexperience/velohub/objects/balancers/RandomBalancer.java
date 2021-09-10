@@ -1,7 +1,7 @@
-package io.alerium.velohub.objects.balancers;
+package it.minecraftexperience.velohub.objects.balancers;
 
-import io.alerium.velohub.objects.Balancer;
-import io.alerium.velohub.objects.Lobby;
+import it.minecraftexperience.velohub.objects.Balancer;
+import it.minecraftexperience.velohub.objects.Lobby;
 
 import java.util.List;
 import java.util.Random;

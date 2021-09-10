@@ -1,4 +1,4 @@
-package io.alerium.velohub.listeners;
+package it.minecraftexperience.velohub.listeners;
 
 import com.google.common.io.ByteArrayDataInput;
 import com.velocitypowered.api.event.Subscribe;
@@ -6,8 +6,8 @@ import com.velocitypowered.api.event.connection.PluginMessageEvent;
 import com.velocitypowered.api.proxy.ServerConnection;
 import com.velocitypowered.api.proxy.messages.LegacyChannelIdentifier;
 import com.velocitypowered.api.proxy.messages.MinecraftChannelIdentifier;
-import io.alerium.velohub.VeloHubPlugin;
-import io.alerium.velohub.objects.Lobby;
+import it.minecraftexperience.velohub.VeloHubPlugin;
+import it.minecraftexperience.velohub.objects.Lobby;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor

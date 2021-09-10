@@ -1,4 +1,4 @@
-package io.alerium.velohub.objects;
+package it.minecraftexperience.velohub.objects;
 
 import java.util.List;
 

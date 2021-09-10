@@ -1,4 +1,4 @@
-package io.alerium.velohub;
+package it.minecraftexperience.velohub;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
@@ -7,13 +7,13 @@ import com.velocitypowered.api.event.proxy.ProxyInitializeEvent;
 import com.velocitypowered.api.plugin.Plugin;
 import com.velocitypowered.api.plugin.annotation.DataDirectory;
 import com.velocitypowered.api.proxy.ProxyServer;
-import io.alerium.velohub.api.VeloHubAPI;
-import io.alerium.velohub.command.LobbyCommand;
-import io.alerium.velohub.command.ReloadCommand;
-import io.alerium.velohub.listeners.PlayerListener;
-import io.alerium.velohub.listeners.PluginMessageListener;
-import io.alerium.velohub.managers.LobbyManager;
-import io.alerium.velohub.utils.Config;
+import it.minecraftexperience.velohub.api.VeloHubAPI;
+import it.minecraftexperience.velohub.command.LobbyCommand;
+import it.minecraftexperience.velohub.command.ReloadCommand;
+import it.minecraftexperience.velohub.listeners.PlayerListener;
+import it.minecraftexperience.velohub.listeners.PluginMessageListener;
+import it.minecraftexperience.velohub.managers.LobbyManager;
+import it.minecraftexperience.velohub.utils.Config;
 import lombok.Getter;
 
 import javax.inject.Inject;

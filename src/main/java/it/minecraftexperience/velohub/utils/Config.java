@@ -1,4 +1,4 @@
-package io.alerium.velohub.utils;
+package it.minecraftexperience.velohub.utils;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;

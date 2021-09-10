@@ -1,10 +1,10 @@
-package io.alerium.velohub.listeners;
+package it.minecraftexperience.velohub.listeners;
 
 import com.velocitypowered.api.event.Subscribe;
 import com.velocitypowered.api.event.player.KickedFromServerEvent;
 import com.velocitypowered.api.event.player.PlayerChooseInitialServerEvent;
-import io.alerium.velohub.VeloHubPlugin;
-import io.alerium.velohub.objects.Lobby;
+import it.minecraftexperience.velohub.VeloHubPlugin;
+import it.minecraftexperience.velohub.objects.Lobby;
 import lombok.RequiredArgsConstructor;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.serializer.gson.GsonComponentSerializer;

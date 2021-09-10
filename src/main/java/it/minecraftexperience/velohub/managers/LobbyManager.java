@@ -1,16 +1,16 @@
-package io.alerium.velohub.managers;
+package it.minecraftexperience.velohub.managers;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.velocitypowered.api.proxy.server.RegisteredServer;
 import com.velocitypowered.api.proxy.server.ServerPing;
-import io.alerium.velohub.VeloHubPlugin;
-import io.alerium.velohub.objects.Balancer;
-import io.alerium.velohub.objects.Lobby;
-import io.alerium.velohub.objects.balancers.FirstAvailableBalancer;
-import io.alerium.velohub.objects.balancers.LowestBalancer;
-import io.alerium.velohub.objects.balancers.RandomBalancer;
-import io.alerium.velohub.objects.balancers.SequentialBalancer;
+import it.minecraftexperience.velohub.VeloHubPlugin;
+import it.minecraftexperience.velohub.objects.Balancer;
+import it.minecraftexperience.velohub.objects.Lobby;
+import it.minecraftexperience.velohub.objects.balancers.FirstAvailableBalancer;
+import it.minecraftexperience.velohub.objects.balancers.LowestBalancer;
+import it.minecraftexperience.velohub.objects.balancers.RandomBalancer;
+import it.minecraftexperience.velohub.objects.balancers.SequentialBalancer;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

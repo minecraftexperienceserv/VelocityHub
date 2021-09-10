@@ -1,7 +1,7 @@
-package io.alerium.velohub.command;
+package it.minecraftexperience.velohub.command;
 
 import com.velocitypowered.api.command.SimpleCommand;
-import io.alerium.velohub.VeloHubPlugin;
+import it.minecraftexperience.velohub.VeloHubPlugin;
 import lombok.RequiredArgsConstructor;
 
 import java.io.FileNotFoundException;
